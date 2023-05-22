@@ -6,10 +6,8 @@ jobs:
     steps:
       - name: Running Addition Program
         run: |
-            echo "Enter you Two Number"
-            num1 = 12
-            num2 = 28
-            result = num1 + num2
+            echo "Addition of 12 and 23"
+            result = 12 + 23
             echo "Result = $result"
       - name: Ending of Program
         run: echo "Thank you"
