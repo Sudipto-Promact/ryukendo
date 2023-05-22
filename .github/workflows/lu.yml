@@ -1,0 +1,10 @@
+name: lu
+on: workflow_dispatch
+jobs:
+  job-first:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lu
+        run: echo "lu"
+      - name: la
+        run: echo "la"
