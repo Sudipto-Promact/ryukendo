@@ -1,0 +1,12 @@
+name: ryu
+on: workflow_dispatch
+jobs:
+  ryu-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ryu message
+        run: |
+            echo "Ryukendo says HI!"
+            echo "Ryukendo says RYUKENDO!"
+      - name: ryu last message
+        run: echo "Ryukendo Sama"
