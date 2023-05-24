@@ -10,8 +10,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: Install Dependencies
-        run: npm ci
+      #- name: Install Dependencies
+       # run: npm ci
       - name: Run Test
         run: npm test
   deploy:
@@ -23,8 +23,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: Install Dependencies
-        run: npm ci
+      #- name: Install Dependencies
+      #  run: npm ci
       - name: Run Build
         run: npm run build
       - name: DEPLOYING
